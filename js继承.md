@@ -26,7 +26,7 @@
     child.world();
     ```
 
-### 二用.call()方法方式
+### 二.用call()方法方式
 ```
     function test(str){
       alert(this.name + " " + str);
@@ -76,7 +76,7 @@
     child.world();
     ```
 
-### 三.原型方式实现
+### 四.原型方式实现
 ```
     function Person(){
     }
@@ -96,7 +96,7 @@
     c.sayWorld();
 ```
 
-### 四.混合方式
+### 五.混合方式
 ```
     function Parent(hello){
       this.hello = hello;
