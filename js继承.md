@@ -24,7 +24,7 @@
     parent.hello();
     child.hello();
     child.world();
-    ```
+```
 
 ### 二.用call()方法方式
 ```
@@ -74,7 +74,7 @@
     parent.hello();
     child.hello();
     child.world();
-    ```
+```
 
 ### 四.原型方式实现
 ```
@@ -115,4 +115,4 @@
     var c = new Child("zhangsan","lisi");
     c.sayHello();
     c.sayWorld();
-    ```
+```
